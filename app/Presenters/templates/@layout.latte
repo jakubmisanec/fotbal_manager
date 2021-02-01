@@ -14,7 +14,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h3>Fotbalový manažer</h3>
                 <div class="d-flex justify-content-between">
-                    <div class="me-2">Vítej, {$user->getIdentity()->username}!</div>
+                    <div class="me-2">Vítej, {$user->getIdentity()->id}!</div>
                     <a n:href="Auth:logout" class="">Odhlásit se</a>
                 </div>
             </div>

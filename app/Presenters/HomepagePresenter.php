@@ -14,7 +14,7 @@ final class HomepagePresenter extends SecuredPresenter
     }
     
     public function actionDefault() {
-        /*$teamA = new SoccerDecoder\Team();
+        $teamA = new SoccerDecoder\Team();
         $teamA->name = "Blue Team";
         $teamA->goalkeeper = new SoccerDecoder\Player("G1", SoccerDecoder\PlayerPosition::GoalKeeper, 8.0, 0.25, 1);
         $teamA->players = [
@@ -61,7 +61,7 @@ final class HomepagePresenter extends SecuredPresenter
             $history->addMatch($match->match);
         }
         
-        $history->printHistory();*/
+        $history->printHistory();
     }
 
 }
