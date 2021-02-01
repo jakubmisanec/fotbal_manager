@@ -1,0 +1,28 @@
+{block navbar}
+
+
+<div class="navigation-bar">
+    <div class="navbar-item">
+        <a n:href="Homepage:" n:class="$presenter->isLinkCurrent() ? active, navbar-link"><ion-icon name="home-outline" style=""></ion-icon> <span>Přehled</span></a>
+    </div>
+    
+    <div class="navbar-item">
+        <a n:href="Club:" n:class="$presenter->isLinkCurrent() ? active, navbar-link"><ion-icon name="people-outline"></ion-icon> <span>Kluby</span></a>
+    </div>
+    
+    <div class="navbar-item">
+        <a n:href="Season:" n:class="$presenter->isLinkCurrent() ? active, navbar-link"><ion-icon name="calendar-outline" style=""></ion-icon> <span>Sezóna</span></a>
+    </div>
+    
+    <div class="navbar-item">
+        <a n:href="Stadium:" n:class="$presenter->isLinkCurrent() ? active, navbar-link"><ion-icon name="football-outline"></ion-icon> <span>Stadion</span></a>
+    </div>
+    
+    <div class="navbar-item">
+        <a n:href="Shop:" n:class="$presenter->isLinkCurrent() ? active, navbar-link"><ion-icon name="cart-outline"></ion-icon> <span>Obchod</span></a>
+    </div>
+    
+    <div class="navbar-item">
+        <a n:href="Homepage:" n:class="$presenter->isLinkCurrent() ? active, navbar-link"><ion-icon name="settings-outline"></ion-icon> <span>Nastavení</span></a>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+ HTML a CSS pro layout (žádné frameworky typu Bootstrap ap., u CSS nutné využít CSS Grid),
+ dokumentace celé aplikace dle PHPdoc,
+
+
+Webová aplikace bude nabízet:
+ Jádro celé aplikace pro její další rozšiřování (ideálně formou modulů).
+ Adekvátní programovou dokumentaci (komentáře PHPdoc a generování např. pomocí ApiGen).
+ Admin/Dashboard template vlastní výroby postavený na CSS Grid a implementující responzivitu (včetně
+manuálu pro využití elementů a layoutů v dalších modulech).
+ Import a export dat přes CSV (pouze uživatelé s oprávněním).
+ Veškerá správa DB a celé aplikace bude in-app, tzn. bez použití nástrojů jako Adminer Editor.
+ Implementace zápasového algoritmu Soccer-Decoder a nutných závislostí.
+ Základní budování kádru – najímání/vyhazov trenérů a hráčů, prodej a nákup hráčů (v omezeném
+časovém okně na přestupy).
+ Základní implementace taktiky a stylu hry (hráči mají jediný rating, preferované rozestavení a styl;
+trenéři styl a rozestavení).
+ Budování/rozšiřování stadionu (vyšší kapacita = vyšší návštěvnost = více financí).
+ Základní finanční model (fixní sponzoři, týdenní platy, finance dle návštěvnosti).
+ Odehrání alespoň jedné sezóny jedné soutěže (20 týmů, 38 kol + příprava a přestávka).
+ Simulace na úrovni dní a týdnů (od zápasu k zápasu), dle volby hráče.
+ Statistiky ze zápasů, kol či celé sezóny (střelci, hodnocení výkonu atd.).
